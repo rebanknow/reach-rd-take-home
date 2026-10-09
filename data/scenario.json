@@ -1,17 +1,13 @@
 {
-  "version": "draft-2-source-first",
+  "version": "draft-3-aligned-sources",
   "prepared_on": "2026-10-09",
   "company": {
     "name": "Reach Industries",
-    "website": "https://reach.industries/",
-    "product_name": "Lumi",
-    "product_website": "https://lumi.systems/"
+    "website": "https://reach.industries/"
   },
   "data_status": {
-    "public_company_context": "real, publicly self-reported",
     "financials": "fully synthetic",
     "headcounts": "synthetic",
-    "operational_vignettes": "Removed; use attributed source material instead",
     "individual_salaries": "not supplied"
   },
   "accounting_period": {
@@ -68,19 +64,26 @@
     "delivery_cost": null,
     "delivery_cost_status": "Not supplied"
   },
-  "source_precedence": "Synthetic P&Ls define exercise amounts and headcounts; source transcripts and CRM records describe historical statements. Source financial values are withheld rather than silently rewritten. Public roles do not establish employing entity.",
+  "source_precedence": "P&Ls contain synthetic amounts and employee counts. Transcripts preserve historical statements. CRM and handover summaries are secondary records, not independently verified facts.",
   "additional_assumptions": {
-    "us_research_hires": {
-      "synthetic": true,
-      "count": 2,
-      "timing": [
-        "Q3",
-        "late Q4"
-      ],
-      "names": null,
-      "employer": "Reach US",
-      "costs": "Included in aggregate US payroll; no UK recharge"
+    "filing_windows": "Assume open and required notification completed for this exercise",
+    "us_activity_start": {
+      "date": "2026-02-01",
+      "basis": "Exact day is an exercise assumption; September call describes February start. Q1 has no activity. Q2 contains only February–March activity."
     },
-    "filing_windows": "Assume open and required notification completed for this exercise"
+    "us_staffing": {
+      "functions": [
+        "marketing",
+        "sales"
+      ],
+      "first_start_month": "2026-06",
+      "second_start_month": "2026-09",
+      "start_day_assumption": "First day of each month for headcount averaging",
+      "research_or_engineering_staff": 0,
+      "uk_recharge_of_us_payroll": false,
+      "basis": "Functions and months follow the September call; amounts and exact dates are synthetic."
+    },
+    "headcount_basis": "Employees only, excluding external advisers and contractors. Quarterly averages are rounded to 2 decimals; annual average is the mean of quarterly averages, rounded to 2 decimals. Synthetic closing count is 21 UK + 2 US = 23.",
+    "accounting_basis": "Accrual-basis management P&Ls; revenue is recognised income, not cash receipts. US first exercise period is February–September 2026, displayed in the common October–September reporting grid with zero pre-start activity. No conclusion on historical backdating is assumed."
   }
 }

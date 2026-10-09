@@ -44,7 +44,8 @@
       "transformations": [
         "Wrapped original MCP text with source metadata",
         "Financial values withheld",
-        "Handover URL points to redacted local copy"
+        "Handover URL points to redacted local copy",
+        "Omitted public profile/enrichment fields: foundation_date, description, clay_enriched_at, logo_url, enriched_by_clay, categories, estimated_arr_usd, employee_range, linkedin, employee_count_5, primary_location"
       ]
     },
     {
@@ -114,7 +115,8 @@
       "transformations": [
         "Wrapped original MCP text with source metadata",
         "Financial values withheld",
-        "Handover URL points to redacted local copy"
+        "Handover URL points to redacted local copy",
+        "Omitted public profile/enrichment fields: primary_location, linkedin, description, avatar_url, facebook"
       ]
     },
     {
@@ -133,40 +135,6 @@
         "Wrapped original MCP text with source metadata",
         "Financial values withheld",
         "Handover URL points to redacted local copy"
-      ]
-    },
-    {
-      "path": "sources/web/reach-homepage.md",
-      "source": {
-        "url": "https://reach.industries/"
-      },
-      "retrieval_method": "firecrawl_scrape",
-      "retrieved_on": "2026-10-09",
-      "transformations": [
-        "Added provenance header; retained extracted page text"
-      ]
-    },
-    {
-      "path": "sources/web/reach-about.md",
-      "source": {
-        "url": "https://reach.industries/about-us"
-      },
-      "retrieval_method": "firecrawl_scrape",
-      "retrieved_on": "2026-10-09",
-      "transformations": [
-        "Added provenance header; retained extracted page text"
-      ]
-    },
-    {
-      "path": "sources/web/lumi-homepage.md",
-      "source": {
-        "url": "https://lumi.systems/"
-      },
-      "retrieval_method": "firecrawl_scrape",
-      "retrieved_on": "2026-10-09",
-      "transformations": [
-        "Added provenance header; retained extracted page text",
-        "Removed cookie-consent interface preceding Skip to content"
       ]
     },
     {
@@ -193,18 +161,6 @@
         "Added provenance header",
         "Monetary figures withheld",
         "Preserved body headings, bullets and source strikethrough formatting"
-      ]
-    },
-    {
-      "path": "data/public-team.json",
-      "source": {
-        "system": "LinkedIn / company websites",
-        "urls": "Individual profile URLs are recorded in the file"
-      },
-      "retrieved_on": "2026-10-09",
-      "retrieval_method": "Aside, session lnmuAcFuMlA3Kp5k",
-      "transformations": [
-        "Previously collected structured research extraction; not verbatim profile exports"
       ]
     }
   ],

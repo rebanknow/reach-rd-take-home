@@ -9,10 +9,10 @@ UTF-8, comma-separated, with a header row. Numeric values have no currency symbo
 | `account` | Income, expense, calculated subtotal or employee metric |
 | `unit` | `GBP`, `USD` or `people` |
 | `q1`–`q4` | Amount incurred during the quarter, or the specified quarter headcount metric |
-| `full_year_or_year_end` | Sum of quarters for money; average of quarterly averages for average employees; Q4 closing count for year-end employees |
+| `full_year_or_year_end` | Sum of quarters for money; average of quarterly averages rounded to 2 decimals for average employees; Q4 closing count for year-end employees |
 | `basis` | Distinguishes synthetic inputs, calculated rows and headcount aggregation |
 
-All financial and headcount inputs are synthetic. Revenue and expense inputs are positive. Losses are negative. Zero means zero, not unknown. Currency units are whole GBP or USD, not thousands. Average employee counts can be fractional.
+All financial and headcount inputs are synthetic. Revenue and expense inputs are positive. Losses are negative. Zero means zero, not unknown. Currency units are whole GBP or USD, not thousands. Average employee counts can be fractional. The reporting grid covers October 2025–September 2026; the US entity has no activity before its assumed February 2026 start. Its annual average headcount uses the full reporting grid, including those zero-activity months.
 
 ## Calculated rows
 
@@ -31,4 +31,4 @@ Subtotal rows coexist with their component rows. Do not sum every CSV row: that 
 
 `scenario.json` records explicit exercise assumptions. Fee fractions are decimals (0.15 = 15%). `delivery_cost: null` means not supplied, not zero. The FX rate is GBP per USD and is an invented management-comparison assumption.
 
-`public-team.json` records source URLs and self-reported public observations as of 9 October 2026. Public role, location and timing fields are textual evidence; they do not assign a salary, employing entity or qualifying R&D percentage. The number of public profiles is not the scenario payroll headcount.
+Files under `sources/attio/` preserve the connector’s native text in `source_text`, alongside provenance and an account of any field omissions. They are source records, not normalised accounting data.
