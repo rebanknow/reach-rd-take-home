@@ -1,0 +1,33 @@
+account,unit,q1,q2,q3,q4,full_year_or_year_end,basis
+Subscription revenue,USD,20000,30000,45000,65000,160000,Synthetic period expense / income
+Implementation revenue,USD,5000,10000,15000,20000,50000,Synthetic period expense / income
+Total revenue,USD,25000,40000,60000,85000,210000,Calculated
+Production cloud hosting,USD,2000,3000,4000,5000,14000,Synthetic period expense / income
+Customer delivery services,USD,3000,4000,5000,6000,18000,Synthetic period expense / income
+Total cost of sales,USD,5000,7000,9000,11000,32000,Calculated
+Gross profit,USD,20000,33000,51000,74000,178000,Calculated
+Salaries and bonuses — all staff,USD,75000,100000,135000,150000,460000,Synthetic period expense / income
+Employer payroll taxes,USD,6500,8500,11500,13000,39500,Synthetic period expense / income
+Employer health and retirement benefits,USD,6000,8000,10000,11000,35000,Synthetic period expense / income
+Severance payments,USD,0,0,0,0,0,Synthetic period expense / income
+Total employee costs,USD,87500,116500,156500,174000,534500,Calculated
+External data services,USD,0,0,4000,6000,10000,Synthetic period expense / income
+Platform cloud and compute,USD,4000,6000,10000,14000,34000,Synthetic period expense / income
+Software subscriptions,USD,3000,4000,5000,6000,18000,Synthetic period expense / income
+Recruitment and people services,USD,8000,10000,12000,6000,36000,Synthetic period expense / income
+Marketing and events,USD,15000,18000,22000,26000,81000,Synthetic period expense / income
+Legal and accounting,USD,10000,8000,7000,7000,32000,Synthetic period expense / income
+Workspace and utilities,USD,3000,3000,4000,4000,14000,Synthetic period expense / income
+Travel and subsistence,USD,6000,8000,10000,12000,36000,Synthetic period expense / income
+Insurance and administration,USD,3000,3000,4000,4000,14000,Synthetic period expense / income
+Depreciation,USD,1000,1000,2000,2000,6000,Synthetic period expense / income
+Total operating expenses,USD,140500,177500,236500,261000,815500,Calculated
+Operating profit / (loss),USD,-120500,-144500,-185500,-187000,-637500,Calculated
+Grant income recognised,USD,0,0,0,0,0,Synthetic period expense / income
+Interest income,USD,1000,1000,500,500,3000,Synthetic period expense / income
+Interest expense,USD,0,0,0,0,0,Synthetic period expense / income
+Profit / (loss) before tax,USD,-119500,-143500,-185000,-186500,-634500,Calculated
+Corporation tax expense / (credit),USD,0,0,0,0,0,Synthetic period expense / income
+Net profit / (loss),USD,-119500,-143500,-185000,-186500,-634500,Calculated
+Average employees during quarter,people,2,3,4,4,3.25,Average of quarterly average employee counts
+Employees at quarter end,people,2,3,4,5,5,"Closing employees, not annual average"

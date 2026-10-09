@@ -1,0 +1,71 @@
+{
+  "version": "draft-1",
+  "prepared_on": "2026-10-09",
+  "company": {
+    "name": "Reach Industries",
+    "website": "https://reach.industries/",
+    "product_name": "Lumi",
+    "product_website": "https://lumi.systems/"
+  },
+  "data_status": {
+    "public_company_context": "real, publicly self-reported",
+    "financials": "fully synthetic",
+    "headcounts": "synthetic",
+    "operational_vignettes": "synthetic",
+    "individual_salaries": "not supplied"
+  },
+  "accounting_period": {
+    "start": "2025-10-01",
+    "end": "2026-09-30",
+    "quarters": {
+      "q1": {
+        "start": "2025-10-01",
+        "end": "2025-12-31"
+      },
+      "q2": {
+        "start": "2026-01-01",
+        "end": "2026-03-31"
+      },
+      "q3": {
+        "start": "2026-04-01",
+        "end": "2026-06-30"
+      },
+      "q4": {
+        "start": "2026-07-01",
+        "end": "2026-09-30"
+      }
+    }
+  },
+  "entities": [
+    {
+      "scenario_label": "Reach UK",
+      "jurisdiction": "UK",
+      "currency": "GBP",
+      "pnl_file": "uk-pnl.csv"
+    },
+    {
+      "scenario_label": "Reach US",
+      "jurisdiction": "US",
+      "currency": "USD",
+      "pnl_file": "us-pnl.csv"
+    }
+  ],
+  "entity_names_are_exercise_labels": true,
+  "management_fx": {
+    "gbp_per_usd": 0.78,
+    "basis": "Invented fixed exercise assumption, not a market quotation"
+  },
+  "commercial": {
+    "claim_jurisdiction": "UK",
+    "reporting_currency": "GBP",
+    "benefit_definition": "Customer actual tax saving or refund, not qualifying expenditure",
+    "starting_fee_fraction": 0.15,
+    "alternative_fee_fractions": [
+      0.1,
+      0.2
+    ],
+    "invoice_trigger": "Client receives payout",
+    "delivery_cost": null,
+    "delivery_cost_status": "Not supplied"
+  }
+}

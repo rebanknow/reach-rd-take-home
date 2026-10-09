@@ -1,0 +1,33 @@
+account,unit,q1,q2,q3,q4,full_year_or_year_end,basis
+Subscription revenue,GBP,45000,60000,80000,105000,290000,Synthetic period expense / income
+Implementation revenue,GBP,15000,20000,25000,30000,90000,Synthetic period expense / income
+Total revenue,GBP,60000,80000,105000,135000,380000,Calculated
+Production cloud hosting,GBP,12000,14000,16000,18000,60000,Synthetic period expense / income
+Customer delivery services,GBP,5000,6000,7000,8000,26000,Synthetic period expense / income
+Total cost of sales,GBP,17000,20000,23000,26000,86000,Calculated
+Gross profit,GBP,43000,60000,82000,109000,294000,Calculated
+Salaries and bonuses — all staff,GBP,270000,310000,350000,380000,1310000,Synthetic period expense / income
+Employer National Insurance,GBP,34000,39000,45000,49000,167000,Synthetic period expense / income
+Employer pension contributions,GBP,10000,12000,13000,14000,49000,Synthetic period expense / income
+Redundancy payments,GBP,0,0,0,18000,18000,Synthetic period expense / income
+Total employee costs,GBP,314000,361000,408000,461000,1544000,Calculated
+External data services,GBP,18000,21000,24000,27000,90000,Synthetic period expense / income
+Platform cloud and compute,GBP,24000,28000,32000,36000,120000,Synthetic period expense / income
+Software subscriptions,GBP,9000,10000,11000,12000,42000,Synthetic period expense / income
+Recruitment and people services,GBP,8000,10000,8000,6000,32000,Synthetic period expense / income
+Marketing and events,GBP,10000,12000,16000,18000,56000,Synthetic period expense / income
+Legal and accounting,GBP,8000,9000,11000,12000,40000,Synthetic period expense / income
+Workspace and utilities,GBP,6000,6000,7000,7000,26000,Synthetic period expense / income
+Travel and subsistence,GBP,4000,5000,6000,7000,22000,Synthetic period expense / income
+Insurance and administration,GBP,4000,4000,5000,5000,18000,Synthetic period expense / income
+Depreciation,GBP,6000,7000,8000,9000,30000,Synthetic period expense / income
+Total operating expenses,GBP,411000,473000,536000,600000,2020000,Calculated
+Operating profit / (loss),GBP,-368000,-413000,-454000,-491000,-1726000,Calculated
+Grant income recognised,GBP,25000,25000,30000,30000,110000,Synthetic period expense / income
+Interest income,GBP,3000,2500,2000,1500,9000,Synthetic period expense / income
+Interest expense,GBP,1000,1500,2000,2500,7000,Synthetic period expense / income
+Profit / (loss) before tax,GBP,-341000,-387000,-424000,-462000,-1614000,Calculated
+Corporation tax expense / (credit),GBP,0,0,0,0,0,Synthetic period expense / income
+Net profit / (loss),GBP,-341000,-387000,-424000,-462000,-1614000,Calculated
+Average employees during quarter,people,15,17,19,19,17.5,Average of quarterly average employee counts
+Employees at quarter end,people,16,18,20,20,20,"Closing employees, not annual average"
