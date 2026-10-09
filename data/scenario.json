@@ -1,5 +1,5 @@
 {
-  "version": "draft-1",
+  "version": "draft-2-source-first",
   "prepared_on": "2026-10-09",
   "company": {
     "name": "Reach Industries",
@@ -11,7 +11,7 @@
     "public_company_context": "real, publicly self-reported",
     "financials": "fully synthetic",
     "headcounts": "synthetic",
-    "operational_vignettes": "synthetic",
+    "operational_vignettes": "Removed; use attributed source material instead",
     "individual_salaries": "not supplied"
   },
   "accounting_period": {
@@ -67,5 +67,20 @@
     "invoice_trigger": "Client receives payout",
     "delivery_cost": null,
     "delivery_cost_status": "Not supplied"
+  },
+  "source_precedence": "Synthetic P&Ls define exercise amounts and headcounts; source transcripts and CRM records describe historical statements. Source financial values are withheld rather than silently rewritten. Public roles do not establish employing entity.",
+  "additional_assumptions": {
+    "us_research_hires": {
+      "synthetic": true,
+      "count": 2,
+      "timing": [
+        "Q3",
+        "late Q4"
+      ],
+      "names": null,
+      "employer": "Reach US",
+      "costs": "Included in aggregate US payroll; no UK recharge"
+    },
+    "filing_windows": "Assume open and required notification completed for this exercise"
   }
 }

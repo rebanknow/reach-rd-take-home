@@ -1,0 +1,239 @@
+{
+  "items": [
+    {
+      "path": "sources/grain/2026-09-23-transcript.md",
+      "source": {
+        "system": "Grain",
+        "meeting_id": "e149b72b-1426-4a12-9f0d-f8937a53e16c",
+        "date": "2026-09-23"
+      },
+      "retrieval_method": "fetch_meeting_transcript",
+      "retrieved_on": "2026-10-09",
+      "transformations": [
+        "Added provenance header",
+        "Withheld monetary amounts, unmarked pricing figures, financial growth multiple and cost-allocation percentages",
+        "No project descriptions inserted; no paraphrasing"
+      ]
+    },
+    {
+      "path": "sources/grain/2026-10-07-transcript.md",
+      "source": {
+        "system": "Grain",
+        "meeting_id": "52e8f957-9051-4221-ab97-c152f8cf3d18",
+        "date": "2026-10-07"
+      },
+      "retrieval_method": "fetch_meeting_transcript",
+      "retrieved_on": "2026-10-09",
+      "transformations": [
+        "Added provenance header",
+        "Withheld monetary amounts, unmarked pricing figures, financial growth multiple and cost-allocation percentages",
+        "No project descriptions inserted; no paraphrasing"
+      ]
+    },
+    {
+      "path": "sources/attio/company.json",
+      "source": {
+        "system": "Attio",
+        "object": "companies",
+        "record_ids": [
+          "7433729e-69e4-4bb0-8cb1-824621f69d12"
+        ]
+      },
+      "retrieval_method": "get-records-by-ids",
+      "retrieved_on": "2026-10-09",
+      "transformations": [
+        "Wrapped original MCP text with source metadata",
+        "Financial values withheld",
+        "Handover URL points to redacted local copy"
+      ]
+    },
+    {
+      "path": "sources/attio/deal.json",
+      "source": {
+        "system": "Attio",
+        "object": "deals",
+        "record_ids": [
+          "e3944487-afd2-43ea-9000-a83039bd8c66"
+        ]
+      },
+      "retrieval_method": "get-records-by-ids",
+      "retrieved_on": "2026-10-09",
+      "transformations": [
+        "Wrapped original MCP text with source metadata",
+        "Financial values withheld",
+        "Handover URL points to redacted local copy"
+      ]
+    },
+    {
+      "path": "sources/attio/contacts.json",
+      "source": {
+        "system": "Attio",
+        "object": "people",
+        "record_ids": [
+          "bf53deae-92f9-433a-aa29-f71cb5cc0085",
+          "d5e98cd7-d0b4-4950-92d0-c6c0fca24576"
+        ]
+      },
+      "retrieval_method": "get-records-by-ids",
+      "retrieved_on": "2026-10-09",
+      "transformations": [
+        "Wrapped original MCP text with source metadata",
+        "Financial values withheld",
+        "Handover URL points to redacted local copy"
+      ]
+    },
+    {
+      "path": "sources/attio/workspaces.json",
+      "source": {
+        "system": "Attio",
+        "object": "workspaces",
+        "record_ids": [
+          "716cb0e9-389e-4e4b-b5a2-ec20962f9a7f",
+          "d5d4cd9a-4fc6-4aca-9dfe-a5127bfa0add"
+        ]
+      },
+      "retrieval_method": "get-records-by-ids",
+      "retrieved_on": "2026-10-09",
+      "transformations": [
+        "Wrapped original MCP text with source metadata",
+        "Financial values withheld",
+        "Handover URL points to redacted local copy"
+      ]
+    },
+    {
+      "path": "sources/attio/referral-contact.json",
+      "source": {
+        "system": "Attio",
+        "object": "people",
+        "record_ids": [
+          "9df4153b-a842-4010-8d99-e23011eb45d1"
+        ]
+      },
+      "retrieval_method": "get-records-by-ids",
+      "retrieved_on": "2026-10-09",
+      "transformations": [
+        "Wrapped original MCP text with source metadata",
+        "Financial values withheld",
+        "Handover URL points to redacted local copy"
+      ]
+    },
+    {
+      "path": "sources/attio/deal-tasks.json",
+      "source": {
+        "system": "Attio",
+        "object": "tasks",
+        "record_ids": [
+          "0b69e5d4-e1b0-42cc-8bef-4cbdf062507a",
+          "113f0728-53b5-447e-81c3-ee392023d7cc"
+        ]
+      },
+      "retrieval_method": "list-tasks",
+      "retrieved_on": "2026-10-09",
+      "transformations": [
+        "Wrapped original MCP text with source metadata",
+        "Financial values withheld",
+        "Handover URL points to redacted local copy"
+      ]
+    },
+    {
+      "path": "sources/web/reach-homepage.md",
+      "source": {
+        "url": "https://reach.industries/"
+      },
+      "retrieval_method": "firecrawl_scrape",
+      "retrieved_on": "2026-10-09",
+      "transformations": [
+        "Added provenance header; retained extracted page text"
+      ]
+    },
+    {
+      "path": "sources/web/reach-about.md",
+      "source": {
+        "url": "https://reach.industries/about-us"
+      },
+      "retrieval_method": "firecrawl_scrape",
+      "retrieved_on": "2026-10-09",
+      "transformations": [
+        "Added provenance header; retained extracted page text"
+      ]
+    },
+    {
+      "path": "sources/web/lumi-homepage.md",
+      "source": {
+        "url": "https://lumi.systems/"
+      },
+      "retrieval_method": "firecrawl_scrape",
+      "retrieved_on": "2026-10-09",
+      "transformations": [
+        "Added provenance header; retained extracted page text",
+        "Removed cookie-consent interface preceding Skip to content"
+      ]
+    },
+    {
+      "path": "sources/jesse-rd-overview.md",
+      "source": {
+        "url": "https://www.youtube.com/watch?v=rZtqxqRWMNs"
+      },
+      "retrieval_method": "firecrawl_scrape",
+      "retrieved_on": "2026-10-09",
+      "transformations": [
+        "Extracted transcript section from previously retrieved video response; added provenance header"
+      ]
+    },
+    {
+      "path": "sources/notion/reach-handover.md",
+      "source": {
+        "system": "Notion",
+        "page_id": "3f24d7a6-0990-81e4-9760-e826cc26ed33",
+        "title": "Reach"
+      },
+      "retrieved_on": "2026-10-09",
+      "retrieval_method": "Aside, session pVq0YdD82SaTpVlx",
+      "transformations": [
+        "Added provenance header",
+        "Monetary figures withheld",
+        "Preserved body headings, bullets and source strikethrough formatting"
+      ]
+    },
+    {
+      "path": "data/public-team.json",
+      "source": {
+        "system": "LinkedIn / company websites",
+        "urls": "Individual profile URLs are recorded in the file"
+      },
+      "retrieved_on": "2026-10-09",
+      "retrieval_method": "Aside, session lnmuAcFuMlA3Kp5k",
+      "transformations": [
+        "Previously collected structured research extraction; not verbatim profile exports"
+      ]
+    }
+  ],
+  "financial_redaction_audit": [
+    {
+      "path": "sources/grain/2026-09-23-transcript.md",
+      "automatic_financial_redactions": 17
+    },
+    {
+      "path": "sources/grain/2026-09-23-transcript.md",
+      "additional_unmarked_financial_passages": 5,
+      "source_sha256": "fdc886eec6f9bd0eb4dfa101bcd8c64dac363e09d6a1a3d118c16df912d17f94"
+    },
+    {
+      "path": "sources/grain/2026-10-07-transcript.md",
+      "automatic_financial_redactions": 15
+    },
+    {
+      "path": "sources/grain/2026-10-07-transcript.md",
+      "additional_unmarked_financial_passages": 4,
+      "source_sha256": "3374b8fb8a22caacb81e890dd29b99d9557d63d4fc1f507ec3bb199405ffd5d9"
+    },
+    {
+      "path": "sources/attio/company.json",
+      "automatic_financial_redactions": 3
+    },
+    {
+      "path": "sources/attio/deal.json",
+      "automatic_financial_redactions": 19
+    }
+  ]
+}

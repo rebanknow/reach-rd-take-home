@@ -1,0 +1,13 @@
+{
+  "source": {
+    "system": "Attio",
+    "object": "people",
+    "record_ids": [
+      "9df4153b-a842-4010-8d99-e23011eb45d1"
+    ]
+  },
+  "retrieved_on": "2026-10-09",
+  "format": "Native text representation returned by Attio MCP (TOON), stored without reinterpreting attributes",
+  "changes": "Monetary values withheld; original handover URL replaced by its ID and local redacted copy. Other fields retained as returned. CRM fields may be enriched, automated, stale or contradictory.",
+  "source_text": "[1]:\n  - record_id: 9df4153b-a842-4010-8d99-e23011eb45d1\n    attributes:\n      primary_location:\n        country_code: US\n        locality: San Francisco\n        region: California\n      email_addresses[2]: anelya@anelya.net,anelya@justpaid.io\n      first_interaction: \"19:06 03/04/2023\"\n      first_calendar_interaction: \"18:00 05/12/2023\"\n      last_interaction: \"11:28 07/10/2026\"\n      created_at: \"Wednesday, 2026-01-14 10:08:54\"\n      last_email_interaction: \"11:28 07/10/2026\"\n      linkedin: \"https://www.linkedin.com/in/anelya\"\n      job_title: CEO\n      strongest_connection_user:\n        workspace_membership_id: a5181b27-e637-420f-bf72-9446eace4948\n      first_email_interaction: \"19:06 03/04/2023\"\n      name: Anelya Grant\n      description: \"Fractional CFO, with two decades experience in finance in Silicon Valley.\"\n      avatar_url: \"https://d1ts43dypk8bqh.cloudfront.net/v1/avatars/88114fb5-d28e-4cb4-a1fe-e50be05fe1c2\"\n      facebook: \"https://facebook.com/anelya\"\n      last_calendar_interaction: \"18:00 05/12/2023\"\n      created_by:\n        actor_type: system\n        actor_id: null\n      strongest_connection_strength: Good\n      source[1]{object_slug,object_id,record_id}:\n        sources,fe974654-904c-4341-bdbf-bf8cb1c8caf2,4bc9abab-4e33-4c39-bf1b-61b9270f0140\n      company:\n        object_slug: companies\n        object_id: a3e9e615-cc3c-4098-9dd2-d4cb11faaa7f\n        record_id: bf0d1b7f-8056-489e-a884-66f627820431\n      referred_deals[1]{object_slug,object_id,record_id}:\n        deals,fa6bcd42-390a-478a-8838-e15c980f9fab,e3944487-afd2-43ea-9000-a83039bd8c66"
+}

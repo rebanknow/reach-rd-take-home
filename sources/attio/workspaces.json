@@ -1,0 +1,14 @@
+{
+  "source": {
+    "system": "Attio",
+    "object": "workspaces",
+    "record_ids": [
+      "716cb0e9-389e-4e4b-b5a2-ec20962f9a7f",
+      "d5d4cd9a-4fc6-4aca-9dfe-a5127bfa0add"
+    ]
+  },
+  "retrieved_on": "2026-10-09",
+  "format": "Native text representation returned by Attio MCP (TOON), stored without reinterpreting attributes",
+  "changes": "Monetary values withheld; original handover URL replaced by its ID and local redacted copy. Other fields retained as returned. CRM fields may be enriched, automated, stale or contradictory.",
+  "source_text": "[2]:\n  - record_id: 716cb0e9-389e-4e4b-b5a2-ec20962f9a7f\n    attributes:\n      name: REACH INDUSTRIES\n      company:\n        object_slug: companies\n        object_id: a3e9e615-cc3c-4098-9dd2-d4cb11faaa7f\n        record_id: 7433729e-69e4-4bb0-8cb1-824621f69d12\n      workspace_id: 01a11a74-e47f-7f57-8d96-6ac4c4e3361b\n      created_by:\n        actor_type: api-token\n        actor_id: e3a2ab15-a27c-4629-af4e-831a635bca3d\n      created_at: \"Thursday, 2026-10-08 07:40:36\"\n  - record_id: d5d4cd9a-4fc6-4aca-9dfe-a5127bfa0add\n    attributes:\n      name: Reach Industrues (TEST)\n      company:\n        object_slug: companies\n        object_id: a3e9e615-cc3c-4098-9dd2-d4cb11faaa7f\n        record_id: 7433729e-69e4-4bb0-8cb1-824621f69d12\n      workspace_id: 01a0cece-ed57-7734-aace-e3f6595dbf84\n      users[1]{object_slug,object_id,record_id}:\n        users,6d48b8da-9e04-4bae-8bb4-bbc7b001254c,3572cc7f-e4cd-40a0-850c-673250193d1f\n      created_by:\n        actor_type: api-token\n        actor_id: e3a2ab15-a27c-4629-af4e-831a635bca3d\n      created_at: \"Tuesday, 2026-10-06 13:37:09\""
+}

@@ -1,0 +1,14 @@
+{
+  "source": {
+    "system": "Attio",
+    "object": "tasks",
+    "record_ids": [
+      "0b69e5d4-e1b0-42cc-8bef-4cbdf062507a",
+      "113f0728-53b5-447e-81c3-ee392023d7cc"
+    ]
+  },
+  "retrieved_on": "2026-10-09",
+  "format": "Native text representation returned by Attio MCP (TOON), stored without reinterpreting attributes",
+  "changes": "Monetary values withheld; original handover URL replaced by its ID and local redacted copy. Other fields retained as returned. CRM fields may be enriched, automated, stale or contradictory.",
+  "source_text": "tasks[2]:\n  - task_id: 0b69e5d4-e1b0-42cc-8bef-4cbdf062507a\n    content: \"Set Source & Generate proposal for — reach.industries. \\n\\n⚠ Verify: \"\n    deadline_at: 2026-09-23\n    is_completed: true\n    assignees[1]{workspace_member_id}:\n      e734d167-a607-43aa-9b59-c244ac90e2e8\n    linked_records[1]{object_id,record_id}:\n      fa6bcd42-390a-478a-8838-e15c980f9fab,e3944487-afd2-43ea-9000-a83039bd8c66\n    created_at: \"2026-09-23T15:54:29.975Z\"\n  - task_id: 113f0728-53b5-447e-81c3-ee392023d7cc\n    content: \"Generate proposal for — reach.industries. \\n\\n⚠ Verify: contact_role, employee_count, num_entities, total_entities, pricing_tier, source_type\"\n    deadline_at: 2026-10-07\n    is_completed: true\n    assignees[1]{workspace_member_id}:\n      e734d167-a607-43aa-9b59-c244ac90e2e8\n    linked_records[1]{object_id,record_id}:\n      fa6bcd42-390a-478a-8838-e15c980f9fab,e3944487-afd2-43ea-9000-a83039bd8c66\n    created_at: \"2026-10-07T10:17:18.883Z\"\nhas_more: false"
+}

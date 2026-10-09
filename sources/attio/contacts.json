@@ -1,0 +1,14 @@
+{
+  "source": {
+    "system": "Attio",
+    "object": "people",
+    "record_ids": [
+      "bf53deae-92f9-433a-aa29-f71cb5cc0085",
+      "d5e98cd7-d0b4-4950-92d0-c6c0fca24576"
+    ]
+  },
+  "retrieved_on": "2026-10-09",
+  "format": "Native text representation returned by Attio MCP (TOON), stored without reinterpreting attributes",
+  "changes": "Monetary values withheld; original handover URL replaced by its ID and local redacted copy. Other fields retained as returned. CRM fields may be enriched, automated, stale or contradictory.",
+  "source_text": "[2]:\n  - record_id: bf53deae-92f9-433a-aa29-f71cb5cc0085\n    attributes:\n      first_interaction: \"12:54 22/09/2026\"\n      created_at: \"Tuesday, 2026-09-22 14:59:38\"\n      created_by:\n        actor_type: system\n        actor_id: null\n      name: Silas Adekunle\n      last_email_interaction: \"11:52 09/10/2026\"\n      first_email_interaction: \"12:54 22/09/2026\"\n      last_calendar_interaction: \"15:00 23/09/2026\"\n      last_interaction: \"11:52 09/10/2026\"\n      associated_users[1]{object_slug,object_id,record_id}:\n        users,6d48b8da-9e04-4bae-8bb4-bbc7b001254c,0da9324d-abcf-4d6f-b0a4-c5ca20b55371\n      associated_deals[1]{object_slug,object_id,record_id}:\n        deals,fa6bcd42-390a-478a-8838-e15c980f9fab,e3944487-afd2-43ea-9000-a83039bd8c66\n      company:\n        object_slug: companies\n        object_id: a3e9e615-cc3c-4098-9dd2-d4cb11faaa7f\n        record_id: 7433729e-69e4-4bb0-8cb1-824621f69d12\n      first_calendar_interaction: \"15:00 23/09/2026\"\n      strongest_connection_strength: Weak\n      strongest_connection_user:\n        workspace_membership_id: a5181b27-e637-420f-bf72-9446eace4948\n      email_addresses[1]: silas@reach.industries\n  - record_id: d5e98cd7-d0b4-4950-92d0-c6c0fca24576\n    attributes:\n      first_interaction: \"12:54 22/09/2026\"\n      created_at: \"Tuesday, 2026-09-22 14:59:38\"\n      created_by:\n        actor_type: system\n        actor_id: null\n      name: Kathryn Green\n      last_email_interaction: \"11:52 09/10/2026\"\n      first_email_interaction: \"12:54 22/09/2026\"\n      last_calendar_interaction: \"10:00 07/10/2026\"\n      last_interaction: \"11:52 09/10/2026\"\n      associated_deals[1]{object_slug,object_id,record_id}:\n        deals,fa6bcd42-390a-478a-8838-e15c980f9fab,e3944487-afd2-43ea-9000-a83039bd8c66\n      company:\n        object_slug: companies\n        object_id: a3e9e615-cc3c-4098-9dd2-d4cb11faaa7f\n        record_id: 7433729e-69e4-4bb0-8cb1-824621f69d12\n      first_calendar_interaction: \"15:00 23/09/2026\"\n      strongest_connection_strength: Weak\n      strongest_connection_user:\n        workspace_membership_id: a5181b27-e637-420f-bf72-9446eace4948\n      email_addresses[1]: kathryn@reach.industries"
+}

@@ -1,32 +1,20 @@
-# Reach Industries — R&D upsell trial data
+# Reach Industries — R&D upsell exercise
 
-Should Caribou offer Reach Industries a UK R&D claim service? Use this material to design how we assess the opportunity, estimate the potential benefit and fee, and divide the work between software, the client and our tax expert.
+Should Caribou offer Reach a UK R&D claim service? Propose how to assess the opportunity, estimate the customer benefit and our fee, and divide the work between software, client and tax expert.
 
-## Start here
+**[Watch Jesse’s R&D overview (11 minutes)](https://www.youtube.com/watch?v=rZtqxqRWMNs)** · [Transcript](sources/jesse-rd-overview.md)
 
-1. **[Watch Jesse’s R&D overview (11 minutes)](https://www.youtube.com/watch?v=rZtqxqRWMNs).** Jesse runs R&D at Caribou. His explanation provides expert context and possible approaches—not a workflow you must follow.
-2. Read the [business context](context/business-notes.md).
-3. Explore the data and supporting notes below as useful. You do not need to use every item.
+## Source material
 
-## Data and references
+- **Calls:** full Grain transcripts from [23 September](sources/grain/2026-09-23-transcript.md) and [7 October](sources/grain/2026-10-07-transcript.md).
+- **CRM:** [Attio records](sources/attio/) and the linked [Notion handover](sources/notion/reach-handover.md).
+- **Public information:** [website snapshots](sources/web/) and [team research with profile links](data/public-team.json).
+- **Exercise financials:** [UK P&L (GBP)](data/uk-pnl.csv), [US P&L (USD)](data/us-pnl.csv), [scenario assumptions](data/scenario.json).
 
-| File | Contents |
-| --- | --- |
-| `data/uk-pnl.csv` | Synthetic UK standalone accounts in GBP, plus aggregate employee counts |
-| `data/us-pnl.csv` | Synthetic US standalone accounts in USD, plus aggregate employee counts |
-| `data/scenario.json` | Accounting period, entities, currencies, scenario status and commercial assumptions |
-| `data/public-team.json` | Publicly reported names, roles, locations, timing and source links |
-| `context/accounting-notes.md` | Basis of preparation, cost descriptions and available supporting material |
-| `context/business-notes.md` | Synthetic operational context and decision sought |
-| `context/sources.md` | Public research sources and provenance |
-| `DATA-DICTIONARY.md` | CSV fields, sign conventions and total calculations |
+[Source provenance and coverage](SOURCES.md) · [CSV definitions](DATA-DICTIONARY.md)
 
 ## About the data
 
-Reach is a real company; its public identity, product and team references are retained. **Actual client financial information must not be shared.** All supplied financial figures, headcounts and operational scenarios are synthetic. Salaries are available only as entity-level aggregates.
-
-Use the supplied scenario facts for the exercise. Public profiles are research evidence, not verified payroll records. The accounts cover **1 October 2025–30 September 2026**, with UK amounts in GBP and US amounts in USD.
-
-## How you work
+Actual client financial information must not be shared. Source financial figures are explicitly withheld; the P&Ls and scenario headcounts are synthetic. Use those exercise figures for calculations. Individual salaries are not supplied. Historical source statements and public profiles may differ from the synthetic scenario.
 
 Use any tools or resources you find useful. You may contact Caribou with questions or request time with Jesse. Please do not contact Reach or its employees.
