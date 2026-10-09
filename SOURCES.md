@@ -27,3 +27,5 @@ Source monetary amounts, client allocation percentages and relevant financial fi
 - The linked Notion handover was retrieved in full. No underlying payroll exports, supplier contracts, historical claim spreadsheets, technical tickets, experiment logs or accounting-system attachments were retrieved. Mentions of those materials do not mean they are included.
 
 The exact accounting dates, amounts and headcount averages are exercise assumptions. Historical estimates in the calls are not audited headcount reconciliations. CRM summaries are secondary evidence; the transcripts retain what was actually recorded.
+
+The scenario adds two fictional US research hires to the historical team. Their dates and employing entity are specified in `data/scenario.json`; their costs are included only in the aggregate US accounts. This explicit exercise variation takes precedence over source statements about US staffing.

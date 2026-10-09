@@ -1,5 +1,5 @@
 {
-  "version": "draft-3-aligned-sources",
+  "version": "draft-4-us-research-additions",
   "prepared_on": "2026-10-09",
   "company": {
     "name": "Reach Industries",
@@ -64,7 +64,7 @@
     "delivery_cost": null,
     "delivery_cost_status": "Not supplied"
   },
-  "source_precedence": "P&Ls contain synthetic amounts and employee counts. Transcripts preserve historical statements. CRM and handover summaries are secondary records, not independently verified facts.",
+  "source_precedence": "P&Ls contain synthetic amounts and employee counts. The two US research hires below are explicit exercise additions and override historical statements about the US team for this scenario. Transcripts preserve historical statements. CRM and handover summaries are secondary records, not independently verified facts.",
   "additional_assumptions": {
     "filing_windows": "Assume open and required notification completed for this exercise",
     "us_activity_start": {
@@ -74,16 +74,32 @@
     "us_staffing": {
       "functions": [
         "marketing",
-        "sales"
+        "sales",
+        "research"
       ],
-      "first_start_month": "2026-06",
-      "second_start_month": "2026-09",
+      "first_commercial_start_month": "2026-06",
+      "second_commercial_start_month": "2026-09",
       "start_day_assumption": "First day of each month for headcount averaging",
-      "research_or_engineering_staff": 0,
+      "synthetic_research_additions": [
+        {
+          "role": "Research Scientist — Computer Vision",
+          "start_date": "2026-07-01",
+          "work_location": "US",
+          "employing_entity": "Reach US",
+          "cost_bearing_entity": "Reach US"
+        },
+        {
+          "role": "Research Scientist — Applied Machine Learning",
+          "start_date": "2026-08-01",
+          "work_location": "US",
+          "employing_entity": "Reach US",
+          "cost_bearing_entity": "Reach US"
+        }
+      ],
       "uk_recharge_of_us_payroll": false,
-      "basis": "Functions and months follow the September call; amounts and exact dates are synthetic."
+      "basis": "Commercial functions and months follow the September call. Research hires are fictional additions, not claims about real employees. All costs are included in the aggregate US P&L; individual compensation is not supplied."
     },
-    "headcount_basis": "Employees only, excluding external advisers and contractors. Quarterly averages are rounded to 2 decimals; annual average is the mean of quarterly averages, rounded to 2 decimals. Synthetic closing count is 21 UK + 2 US = 23.",
+    "headcount_basis": "Employees only, excluding external advisers and contractors. Quarterly averages are rounded to 2 decimals; annual average is the mean of quarterly averages, rounded to 2 decimals. Synthetic closing count is 21 UK + 4 US = 25, including the two fictional research hires.",
     "accounting_basis": "Accrual-basis management P&Ls; revenue is recognised income, not cash receipts. US first exercise period is February–September 2026, displayed in the common October–September reporting grid with zero pre-start activity. No conclusion on historical backdating is assumed."
   }
 }
